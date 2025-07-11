@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BytePadding")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MakeList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba7341af9393a355766d72f4139187509cda8007")]
-[assembly: System.Reflection.AssemblyProductAttribute("BytePadding")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BytePadding")]
+[assembly: System.Reflection.AssemblyProductAttribute("MakeList")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MakeList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

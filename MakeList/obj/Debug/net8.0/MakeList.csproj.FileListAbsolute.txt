@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\task\Base_CShop\MakeList\bin\Debug\net8.0\MakeList.exe
+C:\Users\user\Desktop\task\Base_CShop\MakeList\bin\Debug\net8.0\MakeList.deps.json
+C:\Users\user\Desktop\task\Base_CShop\MakeList\bin\Debug\net8.0\MakeList.runtimeconfig.json
+C:\Users\user\Desktop\task\Base_CShop\MakeList\bin\Debug\net8.0\MakeList.dll
+C:\Users\user\Desktop\task\Base_CShop\MakeList\bin\Debug\net8.0\MakeList.pdb
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.AssemblyInfo.cs
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.sourcelink.json
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.dll
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\refint\MakeList.dll
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.pdb
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\MakeList.genruntimeconfig.cache
+C:\Users\user\Desktop\task\Base_CShop\MakeList\obj\Debug\net8.0\ref\MakeList.dll

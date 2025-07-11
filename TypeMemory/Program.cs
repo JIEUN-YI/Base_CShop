@@ -2,7 +2,7 @@
 
 namespace CShop_Study
 {
-    class TypeMemory
+    class Program
     {
         /*
         static void Main(string[] args)

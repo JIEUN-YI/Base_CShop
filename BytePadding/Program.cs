@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace CShop_Study
 {
-    class BytePadding
+    class Program
     {
         static void Main(string[] args)
         {
