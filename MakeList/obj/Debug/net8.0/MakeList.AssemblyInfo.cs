@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakeList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba7341af9393a355766d72f4139187509cda8007")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c2823ddb9b3230ffd18b83593b7c995b638573e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakeList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakeList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
