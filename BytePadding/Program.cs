@@ -25,15 +25,15 @@ namespace CShop_Study
             /// Console.WriteLine(Marshal.SizeOf(mySI));
             /// Console.WriteLine("===========================");
             /// 
-            /// MyCIL myCIL = new MyCIL('a', 1, 2);
-            /// Console.WriteLine(Marshal.SizeOf(myCIL));
-            /// Console.WriteLine("===========================");
-            /// MyILC myILC = new MyILC(1, 1, 'c');
-            /// Console.WriteLine(Marshal.SizeOf(myILC));
-            /// Console.WriteLine("===========================");
-            /// MyLCI myLCI = new MyLCI(1, 'a', 2);
-            /// Console.WriteLine(Marshal.SizeOf(myLCI));
-            /// Console.WriteLine("===========================");
+             MyCIL myCIL = new MyCIL('a', 1, 2);
+             Console.WriteLine(Marshal.SizeOf(myCIL));
+             Console.WriteLine("===========================");
+             MyILC myILC = new MyILC(1, 1, 'c');
+             Console.WriteLine(Marshal.SizeOf(myILC));
+             Console.WriteLine("===========================");
+             MyLCI myLCI = new MyLCI(1, 'a', 2);
+             Console.WriteLine(Marshal.SizeOf(myLCI));
+             Console.WriteLine("===========================");
             /// MyDCI myDCI = new MyDCI(1.2M, 'a', 1);
             /// Console.WriteLine(Marshal.SizeOf(myDCI));
             /// Console.WriteLine("===========================");

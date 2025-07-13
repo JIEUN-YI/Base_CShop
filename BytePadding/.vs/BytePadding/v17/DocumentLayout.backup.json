@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\BytePadding\\",
+  "WorkspaceRootPath": "E:\\coding\\Base_C#\\BytePadding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2950C7E-5057-472D-89AE-5261154FBEA6}|BytePadding.csproj|c:\\users\\user\\desktop\\task\\base_cshop\\bytepadding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2950C7E-5057-472D-89AE-5261154FBEA6}|BytePadding.csproj|e:\\coding\\base_c#\\bytepadding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2950C7E-5057-472D-89AE-5261154FBEA6}|BytePadding.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\BytePadding\\Program.cs",
+              "DocumentMoniker": "E:\\coding\\Base_C#\\BytePadding\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\BytePadding\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAUwGcAAAAWAAAAAAAAAA==",
+              "ToolTip": "E:\\coding\\Base_C#\\BytePadding\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-11T07:00:29.737Z",
               "EditorCaption": ""

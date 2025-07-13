@@ -1,0 +1,15 @@
+E:\coding\Base_C#\BytePadding\bin\Debug\net8.0\BytePadding.exe
+E:\coding\Base_C#\BytePadding\bin\Debug\net8.0\BytePadding.deps.json
+E:\coding\Base_C#\BytePadding\bin\Debug\net8.0\BytePadding.runtimeconfig.json
+E:\coding\Base_C#\BytePadding\bin\Debug\net8.0\BytePadding.dll
+E:\coding\Base_C#\BytePadding\bin\Debug\net8.0\BytePadding.pdb
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.GeneratedMSBuildEditorConfig.editorconfig
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.AssemblyInfoInputs.cache
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.AssemblyInfo.cs
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.csproj.CoreCompileInputs.cache
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.sourcelink.json
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.dll
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\refint\BytePadding.dll
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.pdb
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\BytePadding.genruntimeconfig.cache
+E:\coding\Base_C#\BytePadding\obj\Debug\net8.0\ref\BytePadding.dll

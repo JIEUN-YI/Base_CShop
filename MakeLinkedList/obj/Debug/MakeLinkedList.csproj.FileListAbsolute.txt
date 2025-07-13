@@ -1,0 +1,8 @@
+E:\coding\Base_C#\MakeLinkedList\bin\Debug\MakeLinkedList.exe.config
+E:\coding\Base_C#\MakeLinkedList\bin\Debug\MakeLinkedList.exe
+E:\coding\Base_C#\MakeLinkedList\bin\Debug\MakeLinkedList.pdb
+E:\coding\Base_C#\MakeLinkedList\obj\Debug\MakeLinkedList.csproj.AssemblyReference.cache
+E:\coding\Base_C#\MakeLinkedList\obj\Debug\MakeLinkedList.csproj.CoreCompileInputs.cache
+E:\coding\Base_C#\MakeLinkedList\obj\Debug\MakeLinkedList.exe
+E:\coding\Base_C#\MakeLinkedList\obj\Debug\MakeLinkedList.pdb
+E:\coding\Base_C#\MakeLinkedList\obj\Debug\MakeLinkedList.exe.config
