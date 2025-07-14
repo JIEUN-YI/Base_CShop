@@ -1,18 +1,18 @@
-﻿namespace DelegateEvent
+﻿namespace Delegate
 {
-
-
+    // 클래스 외부에 선언된 delegate
+    // 해당 네임스페이스에서 접근 가능한 모든 클래스에 사용
     delegate void Delegated(string name);
     delegate int DelegatingAdd(int a, int b);
     delegate void DelegateN();
-
+  
     class Program
     {
         static void Main(string[] args)
         {
-            /*
             MyClass ms = new MyClass();
 
+            // 델리게이트 선언
             Delegated delegating = new Delegated(ms.DelegateEx);
             DelegatingAdd delegateAdd = new DelegatingAdd(ms.Ex3Add);
             DelegateN delegateN = new DelegateN(ms.DelegateN);
@@ -21,7 +21,7 @@
 
             Console.WriteLine("==========================");
 
-            delegating += ms.DelegateEx2;
+            delegating += ms.DelegateEx2; // 새 델리게이트 할당 = 델리게이트 체인 제작
 
             delegating("Show");
             Console.WriteLine("==========================");
@@ -31,7 +31,6 @@
             Console.WriteLine(a);
             Console.WriteLine("==========================");
             delegateN();
-            */
             /*
             Thread t = new Thread(threadFunc);
             t.IsBackground = true;
@@ -77,10 +76,6 @@
         */
     }
 
-    public class EventEx
-    {
-
-    }
     public class MyClass
     {
         public void DelegateEx(string name)
