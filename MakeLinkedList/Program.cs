@@ -28,6 +28,8 @@ namespace MakeLinkedList
         public Node<T> preNode; // 현재 노드의 앞 데이터
         public T value; // 현재 노드의 원본 데이터
         public Node<T> nextNode; // 현재 노드의 다음 데이터
+        // isLast isFirst를 걸어서 프로퍼티로 선언가능 - 재성강사님
+        // bool변수를 가지고 있다면 MakeLinkedList<T>에서 변수를 활용하여 가독성 좋은 코드 제작 가능
 
         // 아무런 참조도 없는 1개의 노드 생성자
         public Node(T value)
