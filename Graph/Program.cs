@@ -4,16 +4,25 @@
     {
         static void Main(string[] args)
         {
-            MakeGraphList<int> graph = new MakeGraphList<int>(5, 5);
+            MakeGraphArr graphArr = new MakeGraphArr(5);
+            graphArr.GraphNonDirecInsert(0, 2);
+            graphArr.GraphNonDirecInsert(1, 2);
+            graphArr.GraphNonDirecInsert(1, 4);
+            graphArr.GraphNonDirecInsert(2, 3);
+            graphArr.GraphNonDirecInsert(3, 4);
+
+            /// graphArr.DFS(0);
+            graphArr.BFS(0);
+            
+            MakeGraphList<int> graph = new MakeGraphList<int>(5);
             graph.GraphNonDirecInsert(0, 2);
             graph.GraphNonDirecInsert(1, 2);
             graph.GraphNonDirecInsert(1, 4);
             graph.GraphNonDirecInsert(2, 3);
             graph.GraphNonDirecInsert(3, 4);
 
+            /// graph.DFS(0);
             graph.BFS(0);
-
-            Console.WriteLine("done");
         }
     }
 
@@ -23,7 +32,6 @@
     public class MakeGraphList<T>
     {
         private int nodeCount; // 정점의 개수
-        private int edgeCount; // 간선의 개수
         public Dictionary<T, List<T>> Graph; // 그래프를 완성
 
         public List<T> result; // 탐색 결과 저장
@@ -33,10 +41,9 @@
         private Queue<T> queue; // 큐에 노드를 담아서 BFS 확인
 
         // 기본 그래프 생성자
-        public MakeGraphList(int nodeCount, int edgeCount)
+        public MakeGraphList(int nodeCount)
         {
             this.nodeCount = nodeCount;
-            this.edgeCount = edgeCount;
             this.Graph = new Dictionary<T, List<T>>(nodeCount); // 정점의 개수만큼 생성
             // 탐색에 필요한 항목
             this.stack = new Stack<T>(nodeCount);
@@ -204,9 +211,16 @@
     {
         private int nodeCount; // 정점의 개수
         public bool[,] Graph;
+
+        bool[] visited; // 방문 여부 확인 배열
+        public List<int> result; // 탐색 결과 저장
+
         public MakeGraphArr(int nodeCount)
         {
+            this.nodeCount = nodeCount;
             Graph = new bool[nodeCount, nodeCount];
+            this.visited = new bool[nodeCount];
+            this.result = new List<int>(nodeCount);
         }
 
         /// 무방향 그래프
@@ -225,9 +239,56 @@
         }
 
         /// DFS탐색
+        public void DFS(int nowNode)
+        {
+            this.visited[nowNode] = true; // 방문 여부 선택
+            this.result.Add(nowNode); // 현재 노드 저장
 
+            // 현재 정점의 연결 여부를 탐색
+            for (int next = 0; next < nodeCount; next++)
+            {
+                if (!this.Graph[nowNode, next]) // 연결 되어 있지 않다면
+                {
+                    continue;
+                }
+                if (this.visited[next]) // 이미 방문한 곳
+                {
+                    continue;
+                }
+
+                DFS(next);
+            }
+        }
 
         /// BFS탐색
+        public void BFS(int nowNode)
+        {
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(nowNode); // 큐에 현재 노드 저장
+            this.visited[nowNode] = true; // 방문 여부 선택
+
+            while (queue.Count > 0) // queue 용량이 없으면 탐색을 종료
+            {
+                int now = queue.Dequeue(); // queue의 맨 앞 노드를 빼냄
+                result.Add(now); // 출력 내용에 노드 추가
+
+                for (int next = 0; next < nodeCount; next++)
+                {
+                    if (!this.Graph[now, next]) // 연결되어있지 않으면
+                    {
+                        continue;
+                    }
+                    if (this.visited[next]) // 탐색을 완료 했으면
+                    {
+                        continue;
+                    }
+                    queue.Enqueue(next); // queue에 삽입
+                    this.visited[next] = true; // 방문여부 확인
+                }
+            }
+
+        }
+
     }
 
 }
