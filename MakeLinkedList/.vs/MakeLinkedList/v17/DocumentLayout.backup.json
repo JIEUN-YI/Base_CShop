@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\coding\\Base_C#\\MakeLinkedList\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\MakeLinkedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9964345B-B100-4840-A068-D00BBA658119}|MakeLinkedList.csproj|e:\\coding\\base_c#\\makelinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9964345B-B100-4840-A068-D00BBA658119}|MakeLinkedList.csproj|c:\\users\\user\\desktop\\task\\base_cshop\\makelinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9964345B-B100-4840-A068-D00BBA658119}|MakeLinkedList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\coding\\Base_C#\\MakeLinkedList\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\MakeLinkedList\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\coding\\Base_C#\\MakeLinkedList\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\MakeLinkedList\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAnwL4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T01:58:59.918Z",
               "EditorCaption": ""
