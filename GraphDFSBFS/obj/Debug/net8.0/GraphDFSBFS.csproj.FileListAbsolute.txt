@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\bin\Debug\net8.0\GraphDFSBFS.exe
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\bin\Debug\net8.0\GraphDFSBFS.deps.json
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\bin\Debug\net8.0\GraphDFSBFS.runtimeconfig.json
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\bin\Debug\net8.0\GraphDFSBFS.dll
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\bin\Debug\net8.0\GraphDFSBFS.pdb
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.AssemblyInfo.cs
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.sourcelink.json
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.dll
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\refint\GraphDFSBFS.dll
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.pdb
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\GraphDFSBFS.genruntimeconfig.cache
+C:\Users\user\Desktop\task\Base_CShop\GraphDFSBFS\obj\Debug\net8.0\ref\GraphDFSBFS.dll
