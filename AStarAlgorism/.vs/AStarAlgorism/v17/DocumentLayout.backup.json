@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStartAlgorism\\",
+  "WorkspaceRootPath": "E:\\coding\\Base_C#\\AStarAlgorism\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE780659-3275-49EB-84A6-CB6A1E9028CA}|AStartAlgorism.csproj|c:\\users\\user\\desktop\\task\\base_cshop\\astartalgorism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE780659-3275-49EB-84A6-CB6A1E9028CA}|AStartAlgorism.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE780659-3275-49EB-84A6-CB6A1E9028CA}|AStarAlgorism.csproj|e:\\coding\\base_c#\\astaralgorism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE780659-3275-49EB-84A6-CB6A1E9028CA}|AStarAlgorism.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStartAlgorism\\Program.cs",
+              "DocumentMoniker": "E:\\coding\\Base_C#\\AStarAlgorism\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStartAlgorism\\Program.cs",
+              "ToolTip": "E:\\coding\\Base_C#\\AStarAlgorism\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T08:16:15.616Z",
               "EditorCaption": ""

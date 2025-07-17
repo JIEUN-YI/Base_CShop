@@ -1,0 +1,15 @@
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.GeneratedMSBuildEditorConfig.editorconfig
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.AssemblyInfoInputs.cache
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.AssemblyInfo.cs
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.csproj.CoreCompileInputs.cache
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.sourcelink.json
+E:\coding\Base_C#\AStarAlgorism\bin\Debug\net8.0\AStarAlgorism.exe
+E:\coding\Base_C#\AStarAlgorism\bin\Debug\net8.0\AStarAlgorism.deps.json
+E:\coding\Base_C#\AStarAlgorism\bin\Debug\net8.0\AStarAlgorism.runtimeconfig.json
+E:\coding\Base_C#\AStarAlgorism\bin\Debug\net8.0\AStarAlgorism.dll
+E:\coding\Base_C#\AStarAlgorism\bin\Debug\net8.0\AStarAlgorism.pdb
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.dll
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\refint\AStarAlgorism.dll
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.pdb
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\AStarAlgorism.genruntimeconfig.cache
+E:\coding\Base_C#\AStarAlgorism\obj\Debug\net8.0\ref\AStarAlgorism.dll
