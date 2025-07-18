@@ -7,7 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Map map = new Map(8, 5);
+        StreamReader sr = new StreamReader(Console.OpenStandardInput());
+        int.TryParse(sr.ReadLine(), out int y);
+        int.TryParse(sr.ReadLine(), out int x);
+        Map map = new Map(y, x);
         map.DrawMap();
     }
 }

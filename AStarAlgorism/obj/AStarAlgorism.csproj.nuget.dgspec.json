@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\coding\\Base_C#\\AStarAlgorism\\AStarAlgorism.csproj": {}
+    "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStarAlgorism\\AStarAlgorism.csproj": {}
   },
   "projects": {
-    "E:\\coding\\Base_C#\\AStarAlgorism\\AStarAlgorism.csproj": {
+    "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStarAlgorism\\AStarAlgorism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\coding\\Base_C#\\AStarAlgorism\\AStarAlgorism.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStarAlgorism\\AStarAlgorism.csproj",
         "projectName": "AStarAlgorism",
-        "projectPath": "E:\\coding\\Base_C#\\AStarAlgorism\\AStarAlgorism.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStarAlgorism\\AStarAlgorism.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\coding\\Base_C#\\AStarAlgorism\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\task\\Base_CShop\\AStarAlgorism\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
