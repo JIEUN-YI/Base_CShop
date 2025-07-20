@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AStarAlgorism")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b89d0cf5fb189aca0c2d062edee160dbf529e0c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b98bbe5c9e563a1b3a59f92763561d95f9138185")]
 [assembly: System.Reflection.AssemblyProductAttribute("AStarAlgorism")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AStarAlgorism")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
