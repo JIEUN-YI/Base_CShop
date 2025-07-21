@@ -7,160 +7,252 @@ namespace ArrayLesson
     {
         static void Main(string[] args)
         {
-
-
+            
         }
     }
-
-    /* 1. 배열의 기본 개념과 사용 방법
-     * 배열의 선언과
-     * int[] array1;
-     * 배열의 할당
-     * array1 = new int[3];
-     * 위의 두줄을 한줄로 선언할 수 있다.
-     * int[] array2 = new int[3];
-     * 인덱스를 활용하여 배열에 값을 저장하기
-     * 인덱스는 0부터 시작한다는 것을 꼭 언급하기
-     * array2[0] = 1;
-     * array2[1] = 2;
-     * array2[2] = 2;
-     * 같은 값이 다른 위치에 할당할 수 있다고 보여주기
-     * array2[3] = 4;
-     * 인덱스 범위가 선언한 용량을 넘어가면 에러가 발생하는 것을 보여주기
-     * 
-     * 또한 배열의 자료를 미리 넣어서 할당 할 수 있다.
-     * int[] array3 = { 1, 2, 3 };
-     * 
-     * 다양한 자료형을 담는 배열 보여주기
-     * char[] arrayChar = new char[5];
-     * double[] arrayDouble = new double[5];
-     * string[] arrayString = new string[5];
-     * 
-     * 기존에 완성한 int 배열을 활용하여 인덱스로 값을 불러와 콘솔에 띄우기
-     * int a = array2[0];
-     * Console.WriteLine(array2[0]);
-     * Console.WriteLine(a);
-     * 
-     */
-    /* 2. 2차원 배열의 활용
-     * 
-     * 2차원 배열의 선언
-     * int[,] example = new int[5, 5];
-     * 인덱스를 활용한 2차원 배열의 값 저장
-     * example[0, 0] = 1;
-     * example[0, 3] = 4;
-     * example[1, 3] = 3;
-     * example[1, 3] = 2;
-     * 
-     * Console.WriteLine(example[0,3]); // 인덱스를 활용한 값 불러오기
-     * 
-     * 새롭게 할당하는 2차원 배열
-     * bool[,] array
-     *     = new bool[5, 5]
-     *     {   { false,false,false,false,false},
-     *         { false,false,false,false,false},
-     *         { false,false,false,false,false},
-     *         { false,false,false,false,false},
-     *         { false,false,false,false,false}
-     *     };
-     * 
-     * 2차원 배열로 맵을 표현하거나 좌표 관리를 할 수 있다는 것을 언급하고
-     *  => 추가적으로 활용 요소를 그림으로 영상에 출력하며 설명이 조히을 듯
-     * 다음에는 맵을 표현하는 실습으로 for문과 foreach문을 활용하는 것으로 넘어가기
-     */
-    /* 3. 반복문과 함께하는 배열의 활용
-     * 배열이 인덱스로 관리되기 때문에 이를 활용한 반복을 사용할 수 있다는 것을 언급
-     * 1차 배열과 foreach문
-     * int[] countdown = { 5, 4, 3, 2, 1 };
-     * foreach (int num in countdown)
-     * {
-     *     Console.WriteLine(num);
-     * }
-     * 2차 배열과 for문
-     * 2차 배열로 할 수 있는 맵을 표현해볼까요?
-     * bool[,] map = new bool[10, 10]
-     * {
-     *     { false, false, false, false, false, false, false, false, false, false},
-     *     { false,  true,  true,  true,  true,  true,  true, false, false, false},
-     *     { false,  true,  true, false,  true, false, false, false, false, false},
-     *     { false, false,  true,  true, false, false, false, false, false, false},
-     *     { false, false, false,  true, false, false, false, false, false, false},
-     *     { false,  true,  true,  true, false,  true,  true, false,  true, false},
-     *     { false,  true, false, false,  true, false,  true,  true,  true, false},
-     *     { false,  true,  true,  true,  true, false,  true,  true,  true, false},
-     *     { false, false,  true, false,  true,  true,  true,  true,  true, false},
-     *     { false, false, false, false, false, false, false, false, false, false}
-     * };
-     * 
-     * 배열은 y축이 먼저 계산된다는 것에 주의 하도록 설명하며 1차원 배열에서의 Length도 보여줄 것
-     * int[] countdown = { 5, 4, 3, 2, 1 };
-     * for(int i = 0; i<countdown.Length; i++)
-     * {
-     *     Console.WriteLine(countdown[i]);
-     * }
-     * 
-     * GetLength(0) 세로 열 = y, GetLength(1) 가로 열 = x
-     * for(int y = 0; y < map.GetLength(0); y++)
-     * {
-     *     for(int x = 0; x < map.GetLength(1); x++)
-     *     {for문과 foreach문의 비교
-     *         if (map[y,x] == false)
-     *         {
-     *             Console.Write("X");
-     *         }
-     *         else
-     *         {
-     *             Console.Write(" ");
-     *         }
-     *     }
-     *     Console.Write("\n");
-     */
-    /* 4. 배열과 타입
-     * 
-     * var 형식은 추론 형식이라고 부릅니다.
-     * 암시적으로 변환을 시켜주는 자료형입니다.
-     * 선언된 변수에 저장되는 값은 추론해서 적당한 형식으로 변환합니다.
-     * 
-     * string[] example = new string[] { "abc", "def", "ghi" };
-     * foreach (var s in example)
-     * {
-     *     Console.WriteLine(s);
-     * }
-     * 
-     * 이렇게 사용하게 되는 이유는 많은 배열을 사용하다보니 형을 잘못 지정해서 에러가 나는 상황을 막기위해 사용할 수 있습니다.
-     * 단, var형은 전역 변수로 선언할 수 없다는 점에 주의해야합니다.
-     *      => 전역 변수 : 함수의 외부에서 선언되는 변수
-     *      => 지역 변수 : 함수 속에 선언되어 해당 함수에서만 사용 가능한 변수
-     * class Program
-     * {
-     *     var l = false;
-     *     static void Main(string[] args)
-     *     {
-     * 
-     *         var a;
-     *         var b = 1;
-     * 
-     *     }
-     * }
-     * string 변수가 char로 이루어진 배열이라는 것을 확인하는 시간
-     * string은 char 개체의 순차적 읽기 전용 컬렉선으로 저장
-     * string test = "배열 정복 그 자체";
-     * 문자열 test에 포함된 char 개체의 수를 표현함
-     * 
-     * Console.WriteLine(test.Length);
-     * foreach(var s in test)
-     * {
-     *     Console.WriteLine(s);
-     * }
-     * 
-     * foreach (char s in test)
-     * {
-     *     Console.WriteLine(s);
-     * }
-     * string 문자열은 불변성을 가집니다.
-     */
 }
-
+/* 1. 배열의 기본 개념과 사용 방법
+* ==============================================================
+* 우선 배열의 기본 개념과 사용 방법을 알아보겠습니다.
+* 배열은 동일한 데이터 형식을 갖는 변수들을 여러 개 보관하는 컬렉션, 즉 그릇입니다.
+* 그럼 우선 변수처럼 배열을 선언해볼까요?
+* 
+* 배열의 선언은 간단합니다.
+* 배열은 동일한 데이터 형식을 갖는다고 했죠?
+* 그러므로 배열이 가질 데이터 형식을 적고 선언해주면 됩니다. 함께 해볼까요?
+* 
+* 먼저 다음과 같이 배열이 가질 자료형을 적고 
+* 배열을 뜻하는 대괄호를 적어줍니다.
+* 그리고 변수명처럼 배열의 이름을 적습니다.
+* ==============================================================
+* int[] array;
+* ==============================================================
+* 자. 이대로 끝낸다면 배열에는 아무것도 들어갈 수 없는 상태입니다.
+* 우리는 단순하게 int 자료형을 가지는 배열 array라는 이름을 선언한 것 뿐입니다.
+* 
+* 실제로 할당을 통해 배열에 변수가 들어갈 공간을 만들어 주겠습니다.
+* array 배열에 새로 new를 사용하여 생성을 시작합니다.
+* 자료형은 동일하게 적고, 대괄호 안에는 배열의 용량. 즉, 몇개의 변수를 배열에 포함시킬지 적어줍니다.
+* ==============================================================
+* array = new int[3];
+* ==============================================================
+* 그러면 우리는 배열의 선언과 생성이 끝났습니다.
+* 지금은 보여드리기 위해 선언과 생성을 따로 해봤는데요.
+* 이것을 하나로 합쳐서 
+* ==============================================================
+* int[] array = new int [3];
+* ==============================================================
+* 이렇게 선언과 생성을 작성할 수 있습니다.
+* 
+* 이러면 array라는 이름의 배열은 3개의 int형식의 변수를 보관하고 있을 겁니다.
+* 하지만 우리는 int형식의 변수가 무엇인지는 정하지 않았죠?
+* 이런 경우 배열에는 자동으로 각 타입별 기본값이 들어갑니다.
+* 숫자형은 0, bool값은 false 처럼 말이죠.
+* 
+* 이제 3칸짜리의 배열에 값을 저장해보겠습니다.
+* 
+* 저장하는 방식은 크게 2가지가 았습니다.
+* 배열을 선언하며 초기화 하는 방식과
+* 배열이 가진 인덱스를 활용하여 특정한 위치에 특정한 값을 넣는 방식입니다.
+* 하나하나 살펴보겠습니다.
+* 
+* 우선 배열의 중요한 특징. 인덱스를 활용해보겠습니다.
+* 인덱스는 0부터 시작하며, 배열의 몇번째 칸 이라는 위치 정보를 나타내는 정수형 위치값입니다.
+* 즉,
+* ==============================================================
+* array[0] = 1;
+* ==============================================================
+* 이렇게 작성하면 array 배열의 0번째 칸에 1을 저장한다고 명령할 수 있습니다.
+* 콘솔에 출력해 볼까요?
+* ==============================================================
+* Console.WriteLine(array[0]);
+* ==============================================================
+* 그리고 당연하게도 같은 값을 다음처럼 다른 위치에 저장할 수도 있습니다.
+* ==============================================================
+* array[1] = 1;
+* ==============================================================
+* 만약 인덱스를 배열이 선언한 용량을 넘기는 위치를 불러오게 하면,
+* ==============================================================
+* array[4] = 2;
+* ==============================================================
+* 범위가 틀렸다는 에러가 발생합니다.
+* 여기까지가 배열에 인덱스를 활용한 방법이였습니다.
+* 
+* 두번째 방법으로는 자료를 미리 넣어서 할당하는 방식입니다.
+* 선언과 생성을 작성한 후 중괄호넣어 원하는 변수를 작성해줍니다. 
+* ==============================================================
+* int[] array = new int[3] { 1, 2, 3 };
+* ==============================================================
+* 3개 모두 출력해 볼까요?
+* ==============================================================
+* Console.WriteLine(array[0]);
+* Console.WriteLine(array[1]);
+* Console.WriteLine(array[2]);
+* ==============================================================
+* 올바르게 출력되는 것을 확인할 수 있습니다.
+* 
+* 지금까지 배열의 기본 개념과 사용 방법을 알아봤습니다.
+*/
+/* 2. 2차원 배열의 활용
+ * 차원이 2이상인 배열을 다차원 배열이라고 합니다.
+ * 우리가 지금까지 본 기본 배열은 1차원 배열인데요.
+ * 
+ * 다차원 배열은 어렵지 않습니다.
+ * ==============================================================
+ * int[] array;
+ * int[,] array2;
+ * int[,,] array3;
+ * int[,,,] array4;
+ * ==============================================================
+ * 이런식으로 콤마를 사용하여 차원을 표현하여 배열을 선언할 수 있습니다.
+ * 이번에는 다차원 배열 중 2차원 배열을 선언하고 활용하는 법을 알아보겠습니다.
+ * 
+ * 1차원 배열의 응용이라 쉽게 따라해볼 수 있을 것입니다.
+ * 우선 int 형식의 2차원 배열 example를 선언하고 크기는 5, 5인 2차원 배열로 제작해보겠습니다.
+ * ==============================================================
+ * int[,] example = new int[5, 5];
+ * ==============================================================
+ * 그리고 인덱스를 활용한 2차원 배열에 값을 저장해 볼건데요.
+ * 2차원 배열은 각 위치별 인덱스 값을 적어주면 됩니다.
+ * 엑셀 시트나 표를 생각하면 쉽습니다.
+ * ==============================================================
+ * example[0, 0] = 1;
+ * example[0, 3] = 4;
+ * example[1, 3] = 3;
+ * example[1, 3] = 2;
+ * ==============================================================
+ * 이런식으로 사용할 수 있죠.
+ * 그리고 인덱스를 사용하지 않는다면
+ * bool[,] array
+ *     = new bool[5, 5]
+ *     {   { false,false,false,false,false},
+ *         { false,false,false,false,false},
+ *         { false,false,false,false,false},
+ *         { false,false,false,false,false},
+ *         { false,false,false,false,false}
+ *     };
+ * ==============================================================
+ * 이렇게 배열에 값을 할당할 수 있습니다.
+ * 
+ * 게임을 제작하다보면 다양한 방면에서 배열을 활용하게 될겁니다.
+ * 2차원 배열만 하더라도 맵을 표현하거나 좌표 관리하는 방식으로 사용할 수 있습니다.
+ * 그럼 다음에는 맵을 표현하는 실습을 해볼까요?
+ */
+/* 3. 반복문과 함께하는 배열의 활용
+ * 앞서 강조했듯이 배열은 인덱스로 관리가 됩니다.
+ * 그래서 이를 활용한 반복문을 사용할 수 있게 됩니다.
+ * 
+ * 우리는 앞선 시간 for문 반복문을 배웠는데요.
+ * 이번에는 1차원 배열에 foreach문 이라는 반복문을 적용해보겠습니다.
+ * 
+ * for문은 우리가 시작지점과 끝을 정해주었는데요
+ * foreach는 이러한 데이터 구조안에 데이터가 들어있는 만큼 반복할 수 있는 반복문입니다.
+ * 즉, 여기 int형 배열로 카운트다운을 설정해보겠습니다.
+ * 우선, countdown이라는 배열을 선언하고 5, 4, 3, 2, 1을 순서대로 담아보겠습니다.
+ * ==============================================================
+ * int[] countdown = { 5, 4, 3, 2, 1 };
+ * ==============================================================
+ * 물론 이대로 하나하나 인덱스를 사용해서 출력할수도 있지만,
+ * 배열의 갯수가 너무 많아진다면, 순서대로 출력하기 어려울 수 있습니다.
+ * 반복하여 처음부터 끝까지 출력할 예정이니까 이대로 foreach를 사용해 보겠습니다.
+ * 우선 countdown배열은 int 자료형을 가지고 있습니다.
+ * 따라서 다음처럼 int 변수 num을 선언하고 in 즉, countdown 안에 있는 변수를 가져옵니다.
+ * foreach는 무조건 처음부터 끝날때까지 반복하게 됩니다.
+ * 출력해 보겠습니다.
+ * ==============================================================
+ * foreach (int num in countdown)
+ * {
+ *     Console.WriteLine(num);
+ * }
+ * ==============================================================
+ * 카운트다운이 출력 되는 것을 볼 수 있죠?
+ * 
+ * 자 이제부터는 반복문과 2차원 배열을 이용해 가장 간단하게 지도를 만들어 보겠습니다.
+ * 우션 벽과 길을 표시해야하므로 bool로된 2차원 배열을 제작해 보겠습니다.
+ * 크기는 임의 10, 10의 정사각으로 표시하고 테두리는 전부 벽 false로, 길은 이어지도록 임의로 true로 만들어보겠습니다.
+ * ==============================================================
+ * bool[,] map = new bool[10, 10]
+ * {
+ *     { false, false, false, false, false, false, false, false, false, false},
+ *     { false,  true,  true,  true,  true,  true,  true, false, false, false},
+ *     { false,  true,  true, false,  true, false, false, false, false, false},
+ *     { false, false,  true,  true, false, false, false, false, false, false},
+ *     { false, false, false,  true, false, false, false, false, false, false},
+ *     { false,  true,  true,  true, false,  true,  true, false,  true, false},
+ *     { false,  true, false, false,  true, false,  true,  true,  true, false},
+ *     { false,  true,  true,  true,  true, false,  true,  true,  true, false},
+ *     { false, false,  true, false,  true,  true,  true,  true,  true, false},
+ *     { false, false, false, false, false, false, false, false, false, false}
+ * };
+ * ==============================================================
+ * 
+ * 배열은 y축이 먼저 계산된다는 것에 주의 하도록 설명하며 1차원 배열에서의 Length도 보여줄 것
+ * int[] countdown = { 5, 4, 3, 2, 1 };
+ * for(int i = 0; i<countdown.Length; i++)
+ * {
+ *     Console.WriteLine(countdown[i]);
+ * }
+ * 
+ * GetLength(0) 세로 열 = y, GetLength(1) 가로 열 = x
+ * for(int y = 0; y < map.GetLength(0); y++)
+ * {
+ *     for(int x = 0; x < map.GetLength(1); x++)
+ *     {for문과 foreach문의 비교
+ *         if (map[y,x] == false)
+ *         {
+ *             Console.Write("X");
+ *         }
+ *         else
+ *         {
+ *             Console.Write(" ");
+ *         }
+ *     }
+ *     Console.Write("\n");
+ */
+/* 4. 배열과 타입
+ * 
+ * var 형식은 추론 형식이라고 부릅니다.
+ * 암시적으로 변환을 시켜주는 자료형입니다.
+ * 선언된 변수에 저장되는 값은 추론해서 적당한 형식으로 변환합니다.
+ * 
+ * string[] example = new string[] { "abc", "def", "ghi" };
+ * foreach (var s in example)
+ * {
+ *     Console.WriteLine(s);
+ * }
+ * 
+ * 이렇게 사용하게 되는 이유는 많은 배열을 사용하다보니 형을 잘못 지정해서 에러가 나는 상황을 막기위해 사용할 수 있습니다.
+ * 단, var형은 전역 변수로 선언할 수 없다는 점에 주의해야합니다.
+ *      => 전역 변수 : 함수의 외부에서 선언되는 변수
+ *      => 지역 변수 : 함수 속에 선언되어 해당 함수에서만 사용 가능한 변수
+ * class Program
+ * {
+ *     var l = false;
+ *     static void Main(string[] args)
+ *     {
+ * 
+ *         var a;
+ *         var b = 1;
+ * 
+ *     }
+ * }
+ * string 변수가 char로 이루어진 배열이라는 것을 확인하는 시간
+ * string은 char 개체의 순차적 읽기 전용 컬렉선으로 저장
+ * string test = "배열 정복 그 자체";
+ * 문자열 test에 포함된 char 개체의 수를 표현함
+ * 
+ * Console.WriteLine(test.Length);
+ * foreach(var s in test)
+ * {
+ *     Console.WriteLine(s);
+ * }
+ * 
+ * foreach (char s in test)
+ * {
+ *     Console.WriteLine(s);
+ * }
+ * string 문자열은 불변성을 가집니다.
+ */
 
 
 

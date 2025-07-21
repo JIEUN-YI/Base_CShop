@@ -6,3 +6,11 @@ C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.csproj.C
 C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.exe
 C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.pdb
 C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.exe.config
+E:\coding\Base_C#\ArrayLesson\bin\Debug\ArrayLesson.exe.config
+E:\coding\Base_C#\ArrayLesson\bin\Debug\ArrayLesson.exe
+E:\coding\Base_C#\ArrayLesson\bin\Debug\ArrayLesson.pdb
+E:\coding\Base_C#\ArrayLesson\obj\Debug\ArrayLesson.csproj.AssemblyReference.cache
+E:\coding\Base_C#\ArrayLesson\obj\Debug\ArrayLesson.exe.config
+E:\coding\Base_C#\ArrayLesson\obj\Debug\ArrayLesson.csproj.CoreCompileInputs.cache
+E:\coding\Base_C#\ArrayLesson\obj\Debug\ArrayLesson.exe
+E:\coding\Base_C#\ArrayLesson\obj\Debug\ArrayLesson.pdb
