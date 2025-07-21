@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\bin\Debug\ArrayLesson.exe.config
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\bin\Debug\ArrayLesson.exe
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\bin\Debug\ArrayLesson.pdb
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.exe
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.pdb
+C:\Users\user\Desktop\task\Base_CShop\ArrayLesson\obj\Debug\ArrayLesson.exe.config
