@@ -1,10 +1,10 @@
 # 배열 - Array
 
 ## 개요
-![이미지](링크)
+![ArrayListInit](https://develrocket-bucket.s3.ap-northeast-2.amazonaws.com/learning/XRP-102/XRP-10202_ProgrammingLanguage/XRP-1020201_ProgrammingBasics/XRP-102020107_ArrayList/ArrayListInit.png)
 <br>
 
-- 자료형이 같거나 서로 관련이 있다면 하나의 묶음으로 만들어 사용할 수 있습니다. 이러한 것을 컬렉션(Collection)이라고합니다. 이를 활용해 비슷한 계열의 자료(학생들의 성적이나 직원들의 부서 등)를 관리할 수 있습니다.
+- 자료형이 같거나 서로 관련이 있다면 하나의 묶음으로 만들어 사용할 수 있습니다. 이러한 것을 컬렉션(Collection)이라고 합니다. 이를 활용해 비슷한 계열의 자료(학생들의 성적이나 직원들의 부서 등)를 관리할 수 있습니다.
 - 이번 강의에서는 C#의 다양한 컬렉션 중 배열에 대하여 알아보고 사용해 보도록 하겠습니다.
 
 ## 학습 목표
@@ -54,7 +54,8 @@
 - foreach문에 대한 설명을 추가하여 foreach문의 활용 예시 사용
 
 ## 배열과 타입
-
+- 배열과 함께 알아두면 좋은 자료형이 있습니다. 바로 string과 var입니다.
+- 이번 영상에서는 string과 var에 대해 알아보고 활용하는 방법을 알아보겠습니다.
 
 <br>
 [시연영상](링크)
@@ -64,11 +65,15 @@
   - var형을 변수의 자료형을 다룰 때 언급이 안된 현재 교안
     - 우선 현재에 맞추어 제작 var를 설명하기
 - string과 배열의 관계
-- 참조 타입과 값 타입의 언급
+- 참조 타입과 값 타입의 언급?
 <br>
 
 
 ## 참고 자료
 - C# 교과서 개정 2판 200p ~ 225p
 - 레트로의 유니티6 게임 프로그래밍 에센스 205p ~ 210p
+- [컬렉션](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/collections)
+- [반복문](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/statements/iteration-statements)
+- [in한정자](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/in-generic-modifier)
 - [문자열 및 문자열 리터럴](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/strings/)
+- [암시적 형식 지역 변수 var](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
